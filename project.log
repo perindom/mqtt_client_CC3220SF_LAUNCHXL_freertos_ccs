@@ -1,0 +1,8 @@
+
+
+!CONFIGURATION: 'Debug' (com.ti.ccstudio.buildDefinitions.TMS470.Debug.1682248428) [Wed Sep 29 09:29:43 EDT 2021]
+
+	!TOOL: 'Arm Compiler' (com.ti.ccstudio.buildDefinitions.TMS470_20.2.exe.compilerDebug.1826240247)
+
+		!NOTE: Deprecated build flag '--float_support=vfplib' was migrated to '--float_support=none'.
+
