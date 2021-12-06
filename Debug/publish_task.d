@@ -44,7 +44,7 @@ publish_task.obj: ../publish_queue.h
 publish_task.obj: ../parsing_queue.h
 publish_task.obj: C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/limits.h
 publish_task.obj: C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/stdlib.h
-publish_task.obj: ../timer70.h
+publish_task.obj: C:/Users/Domin/CLionProjects/inter_component_communication/rover_MQTT/timer70.h
 publish_task.obj: ../timer500.h
 publish_task.obj: C:/Users/Domin/workspace_v10/mqtt_client_CC3220SF_LAUNCHXL_freertos_ccs/mqtt_if.h
 publish_task.obj: C:/ti/simplelink_cc32xx_sdk_4_20_00_07/source/ti/net/mqtt/mqttclient.h
@@ -184,7 +184,7 @@ C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/limits.h:
 
 C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/stdlib.h:
 
-../timer70.h:
+C:/Users/Domin/CLionProjects/inter_component_communication/rover_MQTT/timer70.h:
 
 ../timer500.h:
 

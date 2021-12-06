@@ -40,7 +40,7 @@ sensor_task.obj: C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/
 sensor_task.obj: C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/xlocale/_time.h
 sensor_task.obj: C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/stdbool.h
 sensor_task.obj: C:/ti/simplelink_cc32xx_sdk_4_20_00_07/source/ti/drivers/GPIO.h
-sensor_task.obj: ../timer70.h
+sensor_task.obj: C:/Users/Domin/CLionProjects/inter_component_communication/rover_MQTT/timer70.h
 sensor_task.obj: ../timer500.h
 sensor_task.obj: ../sensor_thread_state.h
 sensor_task.obj: ../sensor_thread_queue.h
@@ -125,7 +125,7 @@ C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/stdbool.h:
 
 C:/ti/simplelink_cc32xx_sdk_4_20_00_07/source/ti/drivers/GPIO.h:
 
-../timer70.h:
+C:/Users/Domin/CLionProjects/inter_component_communication/rover_MQTT/timer70.h:
 
 ../timer500.h:
 

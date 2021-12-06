@@ -2,7 +2,7 @@
 
 timer50.obj: ../timer50.c
 timer50.obj: ../timer50.h
-timer50.obj: C:/Users/Domin/CLionProjects/inter_component_communication/rover_MQTT/debug.h
+timer50.obj: ../debug.h
 timer50.obj: C:/FreeRTOSv202107.00/FreeRTOS/Source/include/FreeRTOS.h
 timer50.obj: C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/stddef.h
 timer50.obj: C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/_ti_config.h
@@ -40,7 +40,7 @@ timer50.obj: C:/ti/simplelink_cc32xx_sdk_4_20_00_07/source/ti/drivers/GPIO.h
 timer50.obj: C:/ti/simplelink_cc32xx_sdk_4_20_00_07/source/ti/drivers/Timer.h
 timer50.obj: syscfg/ti_drivers_config.h
 timer50.obj: C:/ti/simplelink_cc32xx_sdk_4_20_00_07/source/ti/devices/DeviceFamily.h
-timer50.obj: C:/Users/Domin/CLionProjects/inter_component_communication/rover_MQTT/publish_queue.h
+timer50.obj: ../publish_queue.h
 timer50.obj: C:/ti/simplelink_cc32xx_sdk_4_20_00_07/source/ti/drivers/ADC.h
 timer50.obj: ../control_queue.h
 
@@ -48,7 +48,7 @@ timer50.obj: ../control_queue.h
 
 ../timer50.h:
 
-C:/Users/Domin/CLionProjects/inter_component_communication/rover_MQTT/debug.h:
+../debug.h:
 
 C:/FreeRTOSv202107.00/FreeRTOS/Source/include/FreeRTOS.h:
 
@@ -124,7 +124,7 @@ syscfg/ti_drivers_config.h:
 
 C:/ti/simplelink_cc32xx_sdk_4_20_00_07/source/ti/devices/DeviceFamily.h:
 
-C:/Users/Domin/CLionProjects/inter_component_communication/rover_MQTT/publish_queue.h:
+../publish_queue.h:
 
 C:/ti/simplelink_cc32xx_sdk_4_20_00_07/source/ti/drivers/ADC.h:
 

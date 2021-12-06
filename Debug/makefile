@@ -36,7 +36,6 @@ ORDERED_OBJS += \
 "./testRoverTask_state.obj" \
 "./timer50.obj" \
 "./timer500.obj" \
-"./timer70.obj" \
 "./uart_term.obj" \
 "./json_files/cJSON.obj" \
 "../CC3220SF_LAUNCHXL_FREERTOS.cmd" \
@@ -200,8 +199,8 @@ mqtt_client_CC3220SF_LAUNCHXL_freertos_ccs.hex: $(EXE_OUTPUTS)
 # Other Targets
 clean:
 	-$(RM) $(GEN_MISC_FILES__QUOTED)$(BIN_OUTPUTS__QUOTED)$(GEN_FILES__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "chain_queue.obj" "chain_task.obj" "claw_control.obj" "syscfg\ti_drivers_config.obj" "syscfg\ti_net_config.obj" "syscfg\ti_drivers_net_wifi_config.obj" "control_queue.obj" "debug.obj" "main_freertos.obj" "mqtt_client_app.obj" "mqtt_connect.obj" "mqtt_if.obj" "mqtt_queue.obj" "mqtt_task.obj" "mqtt_thread_state.obj" "network_if.obj" "parsing_queue.obj" "publish_queue.obj" "publish_task.obj" "sensor_task.obj" "sensor_thread_queue.obj" "sensor_thread_state.obj" "testRoverTask.obj" "testRoverTask_state.obj" "timer50.obj" "timer500.obj" "timer70.obj" "uart_term.obj" "json_files\cJSON.obj" 
-	-$(RM) "chain_queue.d" "chain_task.d" "claw_control.d" "syscfg\ti_drivers_config.d" "syscfg\ti_net_config.d" "syscfg\ti_drivers_net_wifi_config.d" "control_queue.d" "debug.d" "main_freertos.d" "mqtt_client_app.d" "mqtt_connect.d" "mqtt_if.d" "mqtt_queue.d" "mqtt_task.d" "mqtt_thread_state.d" "network_if.d" "parsing_queue.d" "publish_queue.d" "publish_task.d" "sensor_task.d" "sensor_thread_queue.d" "sensor_thread_state.d" "testRoverTask.d" "testRoverTask_state.d" "timer50.d" "timer500.d" "timer70.d" "uart_term.d" "json_files\cJSON.d" 
+	-$(RM) "chain_queue.obj" "chain_task.obj" "claw_control.obj" "syscfg\ti_drivers_config.obj" "syscfg\ti_net_config.obj" "syscfg\ti_drivers_net_wifi_config.obj" "control_queue.obj" "debug.obj" "main_freertos.obj" "mqtt_client_app.obj" "mqtt_connect.obj" "mqtt_if.obj" "mqtt_queue.obj" "mqtt_task.obj" "mqtt_thread_state.obj" "network_if.obj" "parsing_queue.obj" "publish_queue.obj" "publish_task.obj" "sensor_task.obj" "sensor_thread_queue.obj" "sensor_thread_state.obj" "testRoverTask.obj" "testRoverTask_state.obj" "timer50.obj" "timer500.obj" "uart_term.obj" "json_files\cJSON.obj" 
+	-$(RM) "chain_queue.d" "chain_task.d" "claw_control.d" "syscfg\ti_drivers_config.d" "syscfg\ti_net_config.d" "syscfg\ti_drivers_net_wifi_config.d" "control_queue.d" "debug.d" "main_freertos.d" "mqtt_client_app.d" "mqtt_connect.d" "mqtt_if.d" "mqtt_queue.d" "mqtt_task.d" "mqtt_thread_state.d" "network_if.d" "parsing_queue.d" "publish_queue.d" "publish_task.d" "sensor_task.d" "sensor_thread_queue.d" "sensor_thread_state.d" "testRoverTask.d" "testRoverTask_state.d" "timer50.d" "timer500.d" "uart_term.d" "json_files\cJSON.d" 
 	-$(RMDIR) $(GEN_MISC_DIRS__QUOTED)
 	-@echo 'Finished clean'
 	-@echo ' '

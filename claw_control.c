@@ -100,7 +100,9 @@ void *claw_control_task(void *arg0)
     int retracted = 0;
     publish_message_t done_message;
 
-    int cx = snprintf(done_message.topic, MAX_STR_LEN, "Response");
+    start50();
+
+    int cx = snprintf(done_message.topic, MAX_STR_LEN, "Claw_Response");
     if (cx < 0)
     {
         //Error condition
@@ -162,7 +164,7 @@ void *claw_control_task(void *arg0)
                             opened = 1;
                     }
                     else if (opened && !kicked) {
-                        if (kicker_duty < pwmPeriod)
+                        if (kicker_duty < 0.5*pwmPeriod)
                         {
                             kicker_duty = kicker_duty + dutyInc;
                             PWM_setDuty(pwm2, kicker_duty);
@@ -173,7 +175,7 @@ void *claw_control_task(void *arg0)
                     else if (kicked && !retracted) {
                         if (kicker_duty > 0)
                         {
-                            kicker_duty = kicker_duty - dutyInc;
+                            kicker_duty = kicker_duty - 0.5*dutyInc;
                             PWM_setDuty(pwm2, kicker_duty);
                         }
                         else

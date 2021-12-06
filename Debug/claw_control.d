@@ -19,7 +19,7 @@ claw_control.obj: C:/ti/simplelink_cc32xx_sdk_4_20_00_07/source/ti/posix/ccs/sys
 claw_control.obj: C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/time.h
 claw_control.obj: C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/abi_prefix.h
 claw_control.obj: C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/xlocale/_time.h
-claw_control.obj: C:/Users/Domin/CLionProjects/inter_component_communication/rover_MQTT/debug.h
+claw_control.obj: ../debug.h
 claw_control.obj: C:/FreeRTOSv202107.00/FreeRTOS/Source/include/FreeRTOS.h
 claw_control.obj: C:/Users/Domin/workspace_v10/freertos_builds_CC3220SF_LAUNCHXL_release_ccs/FreeRTOSConfig.h
 claw_control.obj: C:/ti/simplelink_cc32xx_sdk_4_20_00_07/source/ti/posix/freertos/PTLS.h
@@ -42,7 +42,7 @@ claw_control.obj: syscfg/ti_drivers_config.h
 claw_control.obj: C:/ti/simplelink_cc32xx_sdk_4_20_00_07/source/ti/devices/DeviceFamily.h
 claw_control.obj: C:/ti/simplelink_cc32xx_sdk_4_20_00_07/source/ti/drivers/PWM.h
 claw_control.obj: ../control_queue.h
-claw_control.obj: C:/Users/Domin/CLionProjects/inter_component_communication/rover_MQTT/publish_queue.h
+claw_control.obj: ../publish_queue.h
 claw_control.obj: ../timer50.h
 claw_control.obj: C:/ti/simplelink_cc32xx_sdk_4_20_00_07/source/ti/drivers/ADC.h
 
@@ -84,7 +84,7 @@ C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/abi_prefix.h:
 
 C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-arm_20.2.5.LTS/include/xlocale/_time.h:
 
-C:/Users/Domin/CLionProjects/inter_component_communication/rover_MQTT/debug.h:
+../debug.h:
 
 C:/FreeRTOSv202107.00/FreeRTOS/Source/include/FreeRTOS.h:
 
@@ -130,7 +130,7 @@ C:/ti/simplelink_cc32xx_sdk_4_20_00_07/source/ti/drivers/PWM.h:
 
 ../control_queue.h:
 
-C:/Users/Domin/CLionProjects/inter_component_communication/rover_MQTT/publish_queue.h:
+../publish_queue.h:
 
 ../timer50.h:
 

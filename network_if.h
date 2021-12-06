@@ -59,11 +59,11 @@ extern "C"
 /* is executed.                                                               */
 
 /* AP SSID                                                                    */
-#define SSID_NAME               "ARRIS-2239"
+#define SSID_NAME               "Vewake"
 /* Security type (OPEN or WEP or WPA)                                         */
 #define SECURITY_TYPE           SL_WLAN_SEC_TYPE_WPA
 /* Password of the secured AP                                                 */
-#define SECURITY_KEY            "5G1445302181"
+#define SECURITY_KEY            "7039359046"
 
 #define SSID_AP_MODE            "<ap-ssid>"
 #define SEC_TYPE_AP_MODE        SL_WLAN_SEC_TYPE_WPA

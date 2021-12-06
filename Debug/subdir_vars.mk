@@ -38,7 +38,6 @@ C_SRCS += \
 ../testRoverTask_state.c \
 ../timer50.c \
 ../timer500.c \
-../timer70.c \
 ../uart_term.c 
 
 GEN_FILES += \
@@ -76,7 +75,6 @@ C_DEPS += \
 ./testRoverTask_state.d \
 ./timer50.d \
 ./timer500.d \
-./timer70.d \
 ./uart_term.d 
 
 OBJS += \
@@ -106,7 +104,6 @@ OBJS += \
 ./testRoverTask_state.obj \
 ./timer50.obj \
 ./timer500.obj \
-./timer70.obj \
 ./uart_term.obj 
 
 GEN_MISC_FILES += \
@@ -144,7 +141,6 @@ OBJS__QUOTED += \
 "testRoverTask_state.obj" \
 "timer50.obj" \
 "timer500.obj" \
-"timer70.obj" \
 "uart_term.obj" 
 
 GEN_MISC_FILES__QUOTED += \
@@ -179,7 +175,6 @@ C_DEPS__QUOTED += \
 "testRoverTask_state.d" \
 "timer50.d" \
 "timer500.d" \
-"timer70.d" \
 "uart_term.d" 
 
 GEN_FILES__QUOTED += \
@@ -214,7 +209,6 @@ C_SRCS__QUOTED += \
 "../testRoverTask_state.c" \
 "../timer50.c" \
 "../timer500.c" \
-"../timer70.c" \
 "../uart_term.c" 
 
 SYSCFG_SRCS__QUOTED += \

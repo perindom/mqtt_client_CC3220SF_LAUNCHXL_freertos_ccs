@@ -98,8 +98,6 @@ int main(void)
     dbgEvent(0x7F);
     dbgEvent(0x7F);
 
-    //start50();
-
     /* Set priority and stack size attributes */
 
     create_publish_queue();

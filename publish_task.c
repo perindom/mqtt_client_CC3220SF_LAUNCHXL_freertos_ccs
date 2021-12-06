@@ -569,8 +569,6 @@ void *publish_task(void *arg0){
 
     dbgEvent(UART_AFTER_INIT);
 
-    start70();
-    start500();
 
     ret = ti_net_SlNet_initConfig();
     if(0 != ret)

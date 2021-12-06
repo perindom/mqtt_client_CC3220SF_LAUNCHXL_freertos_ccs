@@ -17,9 +17,6 @@ void start50(){
     Timer_Handle timer1;
     Timer_Params params;
 
-    GPIO_init();
-    //Timer_init();
-
     Timer_Params_init(&params);
     params.period = 50000;
     params.periodUnits = Timer_PERIOD_US;
